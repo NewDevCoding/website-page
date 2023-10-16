@@ -1,0 +1,128 @@
+* {
+    font-family: "Lexend Mega", sans-serif;
+    background-color: white;
+}
+
+body{
+    margin: 0;
+    font-family: "Lexend Mega", sans-serif;
+    color: black;
+    background-color: white;
+    font-size: 22px;
+    text-align: center;
+}
+
+ 
+
+
+header h2 {
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.header h1 span {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: green;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav p{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+nav p:hover{
+    text-decoration: none;
+}
+
+.mission{
+    display: flex;
+    height: 300px;
+    padding-top: 40px;
+    background-image: url("./images/background1.jpeg");
+}
+
+.mission .banner {
+    margin: auto;
+    background-color: white;
+    width: 100%;
+
+    
+    
+}
+
+h2, h4{
+    margin: 0;
+    padding: 10px;
+    font-weight: bold;
+    display: block;
+}
+
+h2{
+    font-size: 1.5em;
+}
+
+
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.company{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.company img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding: 10px;
+    height: auto;
+}
+
+.company span{
+    padding: 5px;
+    min-width: 240px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.team{
+    background-image: url(./images/team_background.jpg);
+    padding-top: 70px;
+    padding-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.teammate{
+    padding: 10px;
+    color: white;
+    flex-basis: 280px;
+    background: none;
+}
+
+.teammate img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 16rem;
+
+}
+
+.teammate h3, .teammate p{
+    background: none;
+    font-size: 22px;
+}
